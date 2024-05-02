@@ -1,9 +1,11 @@
-export default function Accueil() {
-  return (
-    <div>
-      <div>
-        <h1>helloworld</h1>
+import Sidebar from'../app/components/Sidebar';
+
+function App(){
+  return(
+      <div className="">
+          <Sidebar />
       </div>
-    </div>
   );
 }
+
+export default App
