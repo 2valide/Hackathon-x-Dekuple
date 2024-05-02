@@ -12,7 +12,7 @@ import Link from "next/link";
 export default function Cards({company}) {
     return (
     <div>
-        <div className="flex w-[1090px] h-[205px] bg-[#009699] rounded-md">
+        <div className="flex w-[990px] h-[205px] bg-[#009699] rounded-md">
             <div className="w-[300px] h-[185px] bg-[#230F49] my-2.5 mx-2.5 flex justify-center items-center rounded-md border border-white">
                 <Link href={company.website}><img src={company.logo} alt={company.alt} className="w-[120px] h-[120px]"/></Link>
             </div>
