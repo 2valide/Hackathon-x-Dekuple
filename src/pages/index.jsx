@@ -1,8 +1,10 @@
+import SearchBar from "@/app/components/SearchBar";
+
 export default function Accueil() {
   return (
     <div>
-      <div>
-        <h1>helloworld</h1>
+      <div className="w-[770px]">
+        <SearchBar placeholder="Rechercher un produit" />
       </div>
     </div>
   );
