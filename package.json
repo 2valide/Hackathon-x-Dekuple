@@ -1,7 +1,5 @@
 {
-
   "name": "jsp",
-
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,8 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-
-
     "cookie": "^0.6.0",
     "framer": "^2.4.1",
     "link": "^2.1.0",
@@ -32,6 +28,4 @@
   "main": "postcss.config.js",
   "author": "",
   "license": "ISC"
-
-
 }
