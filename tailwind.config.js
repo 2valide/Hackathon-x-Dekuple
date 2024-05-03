@@ -14,6 +14,12 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          "fondu" : "url('/BG-fondu.svg')",
+          "authentification" : "url('/Authentification.svg')",
+          "Stockage" : "url('/Stockage.svg')",
+          "Realtime" : "url('/Realtime.svg')",
+          "BG-Performance" : "url('/BG-Performance.svg')",
+          "Analyse" : "url('/Analyse-BG.svg')"
       },
 
       colors: {
