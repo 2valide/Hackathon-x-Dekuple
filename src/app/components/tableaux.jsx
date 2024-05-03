@@ -25,7 +25,7 @@ const Tableau=()=>{
                     src="/img/roulette.svg"  
                     width={37}
                     height={37}
-                    alt='zsqedgfze'
+                    alt='image actualisation'
                 />
                 </div>
                 
