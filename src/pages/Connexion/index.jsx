@@ -1,16 +1,17 @@
-import Header from'../components/Header';
-import Form from'../components/Form';
-import Link from 'next/link';
+import ConnexionForm from "@/app/components/ConnexionForm";
+import Header from "@/app/components/Header";
 
-
-
-function App(){
-    return(
-        <div className="h-full">
-            <Header />
-            <Form />
-        </div>
-    );
+function Connexion() {
+  return (
+    <div>
+      {/* <div className=""> */}
+      <Header />
+      {/* </div> */}
+      {/* <div className="scale-125"> */}
+      <ConnexionForm />
+      {/* </div> */}
+    </div>
+  );
 }
 
-export default App
+export default Connexion;
