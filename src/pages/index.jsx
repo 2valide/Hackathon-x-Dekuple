@@ -1,3 +1,4 @@
+
 export default function Accueil() {
   return (
     <div>
@@ -5,3 +6,5 @@ export default function Accueil() {
     </div>
   );
 }
+
+export default App
