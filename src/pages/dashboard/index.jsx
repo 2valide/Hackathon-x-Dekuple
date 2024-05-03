@@ -6,7 +6,7 @@ export default function Dashboard() {
     return (
     <Cards company ={{
         website: "https://google.com",
-        logo: "@img/google-logo.png",
+        logo: "./img/google-logo.png",
         alt: "google logo",
         name: "Google",
         status: "En cours"
