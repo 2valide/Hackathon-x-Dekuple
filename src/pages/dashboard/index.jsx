@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 
 import SearchBar from "@/app/components/SearchBar";
@@ -55,3 +56,4 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
