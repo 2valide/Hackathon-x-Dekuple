@@ -1,9 +1,10 @@
-
-export default function Accueil() {
-  return (
-    <div>
-      <h1>blabla</h1>
-    </div>
+import Sidebar from'../app/components/Sidebar';
+import SidebarClose from '../app/components/SidebarClose';
+function App(){
+  return(
+      <div className="">
+          <SidebarClose />
+      </div>
   );
 }
 
