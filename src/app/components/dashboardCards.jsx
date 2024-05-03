@@ -8,9 +8,10 @@ import Link from "next/link";
   status: "En cours"
 }
 */
-export default function Cards({company}) {
-    return (
+export default function DashboardCards({ company }) {
+  return (
     <div>
+
         <div className="flex w-[990px] h-[205px] bg-[#009699] py-2.5 px-2.5 rounded-md">
             <div className="w-[300px] h-[185px] bg-[#230F49] mr-2.5 flex justify-center items-center rounded-md border border-white">
                 <Link href={company.website}><img src={company.logo} alt={company.alt} className="w-[120px] h-[120px]"/></Link>
@@ -22,7 +23,9 @@ export default function Cards({company}) {
                     <Link href="#"><p>Voir plus</p></Link>
                 </div>
             </div>
+
         </div>
+      </div>
     </div>
-    );
-};
+  );
+}
