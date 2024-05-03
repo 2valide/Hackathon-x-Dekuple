@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "chart.js": "^4.4.2",
     "cookie": "^0.6.0",
     "framer": "^2.4.1",
     "link": "^2.1.0",
