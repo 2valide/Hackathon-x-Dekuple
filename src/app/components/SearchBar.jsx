@@ -27,6 +27,6 @@ export default function SearchBar({ onSearch, placeholder }) {
   );
 }
 
-{
-  /* <SearchBar onSearch={setSearchQuery} placeholder="Rechercher un produit" /> */
-}
+// {
+//   /* <SearchBar onSearch={setSearchQuery} placeholder="Rechercher un produit" /> */
+// }

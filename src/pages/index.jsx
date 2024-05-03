@@ -1,9 +1,10 @@
-import Sidebar from'../app/components/Sidebar';
-import SidebarClose from '../app/components/SidebarClose';
+import Tableau from '../app/components/tableaux';
+import Header from '../app/components/Header';
 function App(){
   return(
-      <div className="">
-          <SidebarClose />
+      <div className="h-screen bg-black">
+        <Header />
+        <Tableau />
       </div>
   );
 }
