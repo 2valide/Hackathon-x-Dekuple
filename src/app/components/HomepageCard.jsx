@@ -20,7 +20,7 @@ export default function HomePageCard() {
                     Gestion centralisée des données client
                   </h1>
                 </div>
-                <Link href="">
+                <Link href="#">
                   <div className=" flex justify-end mt-32 ml-32">
                     <div className="flex flex-row ml-[390px] mt-[40px] ">
                       <button className="text-white text-[15px] font-bold text-end mr-2 flex">
@@ -56,7 +56,7 @@ export default function HomePageCard() {
               </div>
             </div>
             <div className="flex justify-end mr-6 mt-[122px]">
-              <Link href="/Realtime">
+              <Link href="/realtime">
                 <div className="flex flex-row">
                   <button className="text-white text-[15px] font-bold text-end mr-2">
                     Voir plus
@@ -109,7 +109,7 @@ export default function HomePageCard() {
                   Suivre en temps réel les utilisateur a travers le monde.
                 </h1>
               </div>
-              <Link href="/Realtime">
+              <Link href="/realtime">
                 <div>
                   <div className="flex justify-end mr-6 mt-[10px] hover:animate-fade-right">
                     <div className="flex flex-row mt-3">

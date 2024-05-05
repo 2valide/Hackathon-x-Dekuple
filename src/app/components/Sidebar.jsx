@@ -53,7 +53,7 @@ const Sidebar = () => {
           <p className="ml-[0.5rem]"> Stockage</p>
         </motion.div>
 
-        <Link href="/Realtime"> 
+        <Link href="/realtime"> 
             <motion.div
               whileHover={{
                 scale: 1.1,
@@ -66,7 +66,7 @@ const Sidebar = () => {
             </motion.div>
         </Link>
 
-        <Link href="/Performance">
+        <Link href="/performance">
             <motion.div
               whileHover={{
                 scale: 1.1,
@@ -79,7 +79,7 @@ const Sidebar = () => {
             </motion.div>
         </Link>
 
-        <Link href="/Analyses">
+        <Link href="/analyses">
               <motion.div
                 whileHover={{
                   scale: 1.1,
