@@ -7,7 +7,7 @@ const Tableau=()=>{
     // SIDEBAR
         <div className='flex bg-[#2E1452]'>
             <SidebarClose />
-            <div className='p-[4rem]  '>
+            <div className='p-[4rem]'>
                 <h1 className='text-2xl font-bold text-white'>Stockage</h1>
                 <div className=' mt-[2rem]  border-b-2 border-[#2BD6D9]'>
                     <p className='text-white '>Stockage</p>
@@ -21,12 +21,15 @@ const Tableau=()=>{
                 <div className='mb-[2rem] flex justify-between'>
                     <SearchBar/>
                     <button className='bg-[#D9D9D9] text-[#5EA3A5] rounded-md font-bold p-[0.5rem] '>Ajouter un utilisateur</button>
-                    <Image
-                    src="/img/roulette.svg"  
-                    width={37}
-                    height={37}
-                    alt='image actualisation'
-                />
+                    <button>
+                        <Image
+                        src="/img/roulette.svg"  
+                        width={37}
+                        height={37}
+                        
+                        alt='image actualisation'
+                    />
+                    </button>
                 </div>
                 
                 <div>

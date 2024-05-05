@@ -1,5 +1,7 @@
 import {motion} from 'framer-motion'
 import Image from "next/image";
+import SidebarClose from './SidebarClose';
+
 const Sidebar =()=>{
     return(
         <div className="w-[11rem] h-[40rem]  bg-[#35264A]">
@@ -13,14 +15,17 @@ const Sidebar =()=>{
             </div>
             <div className=" flex flex-col  gap-[2rem] text-white text-[0.85rem] p-[0.9rem] font-bold">
                         
-                        <div className="flex flex-row">
+                        <motion.div whileHover={{
+                            scale: 1.02,
+                            color: "#2BD6D9"
+                        }} className="flex flex-row cursor-pointer" onClick={SidebarClose}>
                             <Image 
                             src="/img/menu.svg"
                             width={25}
                             height={15}
                             alt="" 
                             /> 
-                        </div>
+                        </motion.div>
 
                         <motion.div whileHover={{
                             scale: 1.1,

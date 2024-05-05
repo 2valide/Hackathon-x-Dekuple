@@ -1,29 +1,52 @@
+import React, { useState } from 'react';
 import {motion} from 'framer-motion'
 import Image from "next/image";
+import Sidebar from './Sidebar';
+
 const SidebarClose=()=>{
+
+    const [isOpen, setIsOpen] = useState(true)
+
     return(
+
         <div className="w-[5rem] h-[40rem] bg-[#35264A]">
+            
             <div className="border-b-2 p-[1rem] border-[#2BD6D9]">
                 <Image
                  src="/img/logo_sidebarclose.svg"  
                  width={140}
                  height={100}
-                 alt='zsqedgfze'
+                 alt='logo'
                 />
             </div>
 
             <div className=" flex flex-col  gap-[2rem] items-center mt-[1rem] font-bold">
+                        <button className='btn' onClick={()=>setIsOpen(!isOpen)}>
+                       
+                        {
+                            isOpen?
+
+                            <motion.div whileHover={{
+                                scale: 1.2,
+                            }} className="flex flex-row cursor-pointer">
+                                <Image 
+                                src="/img/menu.svg"
+                                width={25}
+                                height={15}
+                                alt="" 
+                                />
+                            </motion.div>:
+                            <div className={`
+                            ${isOpen ? <SidebarClose/> : <Sidebar/>}`}>
+                                
+                            </div>
+                            
+                            
+
+                        }
+                        </button>
                         
-                        <motion.div whileHover={{
-                            scale: 1.2,
-                        }} className="flex flex-row cursor-pointer">
-                            <Image 
-                            src="/img/menu.svg"
-                            width={25}
-                            height={15}
-                            alt="" 
-                            /> 
-                        </motion.div>
+                       
 
                         <div whileHover={{
                             scale: 1.1,
