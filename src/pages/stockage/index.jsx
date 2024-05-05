@@ -1,5 +1,5 @@
 import Sidebar from "@/app/components/Sidebar";
-import TableauUser from "@/app/components/TableauUser";
+import Tableau from "@/app/components/Tableaux";
 
 
 export default function GestionUser() {
@@ -8,14 +8,14 @@ export default function GestionUser() {
       <Sidebar/>
       <div className="flex flex-col">
         <div className="p-[4rem]  ">
-          <h1 className="text-2xl font-bold text-white"> Base de Données </h1>
+          <h1 className="text-2xl font-bold text-white"> Stockage </h1>
           <div className=" mt-[2rem]  border-b border-[#2BD6D9]  border-solid w-20">
-            <p className="text-white "> Utilisateur </p>
+            <p className="text-white  "> Utilisateur </p>
           </div>
         </div>
-        <div className="flex justify-center items-center ml-[250px] ">
+        <div className="flex justify-center items-center  ml-[250px]">
           <div>
-          <TableauUser />
+          <Tableau/>
           </div>
         </div>
       </div>

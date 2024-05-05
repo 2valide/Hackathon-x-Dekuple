@@ -20,7 +20,7 @@ export default function HomePageCard() {
                     Gestion centralisée des données client
                   </h1>
                 </div>
-                <Link href="/GestionUser">
+                <Link href="/gestionuser">
                   <div className=" flex justify-end mt-32 ml-32">
                     <div className="flex flex-row ml-[390px] mt-[40px] ">
                       <button className="text-white text-[15px] font-bold text-end mr-2 flex">
@@ -53,7 +53,6 @@ export default function HomePageCard() {
             </div>
             <div className="flex justify-end mr-6 mt-[122px]">
               <Link href="/authentification">
-              <Link href="/Authentification">
                 <div className="flex flex-row">
                   <button className="text-white text-[15px] font-bold text-end mr-2">
                     Voir plus
@@ -81,7 +80,7 @@ export default function HomePageCard() {
                 </div>
               </div>
             </div>
-            <Link href="/Stockage">
+            <Link href="/stockage">
               <div className="flex justify-end mr-6 mt-[122px] hover:animate-fade-right">
                 <div className="flex flex-row">
                   <button className="text-white text-[15px] font-bold text-end mr-2">
@@ -165,7 +164,7 @@ export default function HomePageCard() {
                 </h1>
               </div>
             </div>
-            <Link href="/analyse">
+            <Link href="/analyses">
               <div>
                 <div className="flex justify-end mr-6 mt-[150px] hover:animate-fade-right">
                   <div className="flex flex-row mt-3">

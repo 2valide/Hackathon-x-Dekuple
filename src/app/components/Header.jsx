@@ -3,7 +3,10 @@ import Link from "next/link";
 const Header = () => {
   return (
     <div className="bg-[#2E1452] flex justify-between items-center h-20 border-b-2 border-[#2BD6D9]  p-2 pt-4">
-      <img src="/logo.svg" className="w-22 h-20 ml-5 cursor-pointer" />
+      <Link href="/homepage">      
+        <img src="/logo.svg" className="w-22 h-20 ml-5 cursor-pointer" />
+      </Link>
+
       <div className="flex justify-between items-center mr-auto p-20 gap-8">
         <Link href="homepage">
           <p className="text-white hover:text-[#2BD6D9] cursor-pointer">

@@ -4,17 +4,7 @@ import Image from "next/image";
 const Tableau = () => {
   return (
     // SIDEBAR
-    <div className="flex bg-[#2E1452]">
-      <SidebarClose />
-      <div className="p-[4rem]  ">
-        <h1 className="text-2xl font-bold text-white">Stockage</h1>
-        <div className=" mt-[2rem]  border-b-2 border-[#2BD6D9]">
-          <p className="text-white ">Stockage</p>
-        </div>
-      </div>
-
-      {/* TABLEAUX */}
-
+    <div>
       <div className="mt-[15%] bg-[#35264A] p-[1rem] rounded-xl ">
         <div className="mb-[2rem] flex justify-between">
           <SearchBar />
@@ -43,7 +33,7 @@ const Tableau = () => {
                 <th className="font-bold text-white text-capitalize"> Type </th>
                 <th className="font-bold text-white text-capitalize">
                   {" "}
-                  DerniÃ¨re modification{" "}
+                  Dernière modification{" "}
                 </th>
               </tr>
             </thead>

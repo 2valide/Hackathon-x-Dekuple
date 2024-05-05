@@ -7,14 +7,17 @@ import Link from "next/link";
 const Sidebar = () => {
   return (
     <div className="w-[11rem] h-screen  bg-[#35264A]">
-      <div className="border-b-2 p-[1rem] border-[#2BD6D9]">
-        <Image
-          src="/img/logodekuple.svg"
-          width={140}
-          height={100}
-          alt="zsqedgfze"
-        />
-      </div>
+      <Link href="/homepage">
+          <div className="border-b-2 p-[1rem] border-[#2BD6D9]">
+            <Image
+              src="/img/logodekuple.svg"
+              width={140}
+              height={100}
+              alt="Logo"
+            />
+          </div>
+      </Link>
+
       <div className=" flex flex-col  gap-[2rem] text-white text-[0.85rem] p-[0.9rem] font-bold">
         <div className="flex flex-row">
           <Image src="/img/menu.svg" width={25} height={15} alt="" />
@@ -33,7 +36,7 @@ const Sidebar = () => {
           </motion.div>
         </Link>
 
-        <Link href="#">
+        <Link href="/gestionuser">
           <motion.div
             whileHover={{
               scale: 1.1,
@@ -46,7 +49,7 @@ const Sidebar = () => {
           </motion.div>
         </Link>
 
-        <Link href="#">
+        <Link href="/stockage">
           <motion.div
             whileHover={{
               scale: 1.1,
@@ -85,7 +88,7 @@ const Sidebar = () => {
             </motion.div>
         </Link>
 
-        <Link href="/analyse">
+        <Link href="/analyses">
               <motion.div
                 whileHover={{
                   scale: 1.1,

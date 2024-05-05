@@ -39,15 +39,15 @@ const Tableau = () => {
   return (
     <div className="flex bg-[#2E1452]">
       <Sidebar />
-      <div className="p-[4rem] flex">
-        <div className="flex-col flex">
+      <div className="p-[4rem] flex flex-col">
+        <div className="flex flex-col">
           <h1 className="text-2xl font-bold text-white">Authentification</h1>
-          <div className="mt-[2rem] border-b border-[#2BD6D9]">
+          <div className="mt-[2rem] border-b border-[#2BD6D9] w-20">
             <p className="text-white">Utilisateur</p>
           </div>
         </div>
 
-        <div className="mt-[10%] mb-[3%] bg-[#35264A] p-[1rem] border-[#2BD6D9] border rounded-xl ">
+        <div className="mt-[10%] mb-[3%] bg-[#35264A] p-[1rem] border-[#2BD6D9] border rounded-xl ml-[250px] ">
           <div className="mb-[3rem] flex justify-between items-center">
             <SearchBar
               onSearch={setSearchQuery}
