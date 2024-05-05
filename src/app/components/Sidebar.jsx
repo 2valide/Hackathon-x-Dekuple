@@ -19,39 +19,45 @@ const Sidebar = () => {
         <div className="flex flex-row">
           <Image src="/img/menu.svg" width={25} height={15} alt="" />
         </div>
-        
-        <motion.div
-          whileHover={{
-            scale: 1.1,
-            color: "#2BD6D9",
-          }}
-          className="flex flex-row cursor-pointer"
-        >
-          <Image src="/img/Vector2.svg" alt="" width={25} height={15} />{" "}
-          <p className="ml-[0.5rem] mt-[0.3rem]">Authentification</p>
-        </motion.div>
 
-        <motion.div
-          whileHover={{
-            scale: 1.1,
-            color: "#2BD6D9",
-          }}
-          className="flex flex-row cursor-pointer"
-        >
-          <Image src="/img/Vector.svg" width={25} height={15} alt="" />{" "}
-          <p className="ml-[0.5rem]"> Base de Données</p>
-        </motion.div>
+        <Link href="./authentification">
+          <motion.div
+            whileHover={{
+              scale: 1.1,
+              color: "#2BD6D9",
+            }}
+            className="flex flex-row cursor-pointer"
+            >
+            <Image src="/img/Vector2.svg" alt="" width={25} height={15} />{" "}
+            <p className="ml-[0.5rem] mt-[0.3rem]">Authentification</p>
+          </motion.div>
+        </Link>
 
-        <motion.div
-          whileHover={{
-            scale: 1.1,
-            color: "#2BD6D9",
-          }}
-          className="flex flex-row cursor-pointer"
-        >
-          <Image src="/img/icon.svg" width={25} height={15} alt="" />{" "}
-          <p className="ml-[0.5rem]"> Stockage</p>
-        </motion.div>
+        <Link href="#">
+          <motion.div
+            whileHover={{
+              scale: 1.1,
+              color: "#2BD6D9",
+            }}
+            className="flex flex-row cursor-pointer"
+            >
+            <Image src="/img/Vector.svg" width={25} height={15} alt="" />{" "}
+            <p className="ml-[0.5rem]"> Base de Données</p>
+          </motion.div>
+        </Link>
+
+        <Link href="#">
+          <motion.div
+            whileHover={{
+              scale: 1.1,
+              color: "#2BD6D9",
+            }}
+            className="flex flex-row cursor-pointer"
+            >
+            <Image src="/img/icon.svg" width={25} height={15} alt="" />{" "}
+            <p className="ml-[0.5rem]"> Stockage</p>
+          </motion.div>
+        </Link>
 
         <Link href="/realtime"> 
             <motion.div
@@ -79,7 +85,7 @@ const Sidebar = () => {
             </motion.div>
         </Link>
 
-        <Link href="/analyses">
+        <Link href="/analyse">
               <motion.div
                 whileHover={{
                   scale: 1.1,

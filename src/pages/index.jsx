@@ -1,13 +1,11 @@
-import Sidebar from'../app/components/Sidebar';
-import SidebarClose from '../app/components/SidebarClose';
-function App(){
-  return(
-      <div className="">
-          <SidebarClose />
+import SearchBar from "@/app/components/SearchBar";
+
+export default function Accueil() {
+  return (
+    <div>
+      <div className="w-[770px]">
+        <SearchBar placeholder="Rechercher un produit" />
       </div>
+    </div>
   );
 }
-
-export default App
-
-//dqsdqsdqs
