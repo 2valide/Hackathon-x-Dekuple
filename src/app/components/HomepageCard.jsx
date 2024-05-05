@@ -85,12 +85,14 @@ export default function HomePageCard() {
               </div>
             </div>
             <div className="flex justify-end mr-6 mt-[122px] hover:animate-fade-right">
+              <Link href="#">
               <div className="flex flex-row">
                 <button className="text-white text-[15px] font-bold text-end mr-2">
                   Voir plus
                 </button>
                 <img src="/Arrow.svg" alt="" />
               </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -136,7 +138,7 @@ export default function HomePageCard() {
                   rapports.
                 </h1>
               </div>
-              <Link href="/Performance">
+              <Link href="/performance">
                 <div>
                   <div className="flex justify-end mr-6 mt-[10px] hover:animate-fade-right">
                     <div className="flex flex-row mt-3">
@@ -167,7 +169,7 @@ export default function HomePageCard() {
                 </h1>
               </div>
             </div>
-            <Link href="/Analyses">
+            <Link href="/analyse">
               <div>
                 <div className="flex justify-end mr-6 mt-[150px] hover:animate-fade-right">
                   <div className="flex flex-row mt-3">
