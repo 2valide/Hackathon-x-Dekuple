@@ -20,15 +20,21 @@ export default function HomePageCard() {
                     Gestion centralisée des données client
                   </h1>
                 </div>
-                <Link href="/Realtime">
-                  <div className="flex flex-row">
-                    <button className="text-white text-[15px] font-bold text-end mr-2">
-                      Voir plus
-                    </button>
-                    <img src="/Arrow.svg" alt="" />
+                <Link href="">
+                  <div className=" flex justify-end mt-32 ml-32">
+                    <div className="flex flex-row ml-[390px] mt-[40px] ">
+                      <button className="text-white text-[15px] font-bold text-end mr-2 flex">
+                        Voir plus
+                      </button>
+                      <img src="/Arrow.svg" alt="" />
+                    </div>
                   </div>
                 </Link>
               </div>
+
+
+
+
             </div>
           </div>
           <div className="bg-no-repeat bg-authentification bg-right w-[316px] h-[453px] border-4 border-cyan-500 rounded-[15px] mr-[10px]">
@@ -38,7 +44,7 @@ export default function HomePageCard() {
             <div className="flex justify-center">
               <div className="flex flex-col">
                 <div className="flex item-center mt-6">
-                  <h1 className="text-white text-center text-[26px] font-bold ml-[20px]">
+                  <h1 className="text-white text-center text-[26px] font-bold ml-[15px]">
                     Authentification
                   </h1>
                 </div>
@@ -103,6 +109,19 @@ export default function HomePageCard() {
                   Suivre en temps réel les utilisateur a travers le monde.
                 </h1>
               </div>
+              <Link href="/Realtime">
+                <div>
+                  <div className="flex justify-end mr-6 mt-[10px] hover:animate-fade-right">
+                    <div className="flex flex-row mt-3">
+                      <button className="text-white text-[15px] font-bold text-end mr-2">
+                        Voir plus
+                      </button>
+                      <img src="/Arrow.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
             </div>
             <div className="bg-no-repeat bg-BG-Performance w-[740px] h-[222px] mt-[8px]">
               <div className="flex flex-row pt-4 pl-4">
@@ -117,6 +136,19 @@ export default function HomePageCard() {
                   rapports.
                 </h1>
               </div>
+              <Link href="/Performance">
+                <div>
+                  <div className="flex justify-end mr-6 mt-[10px] hover:animate-fade-right">
+                    <div className="flex flex-row mt-3">
+                      <button className="text-white text-[15px] font-bold text-end mr-2">
+                        Voir plus
+                      </button>
+                      <img src="/Arrow.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
             </div>
           </div>
 
@@ -135,6 +167,19 @@ export default function HomePageCard() {
                 </h1>
               </div>
             </div>
+            <Link href="/Analyses">
+              <div>
+                <div className="flex justify-end mr-6 mt-[150px] hover:animate-fade-right">
+                  <div className="flex flex-row mt-3">
+                    <button className="text-white text-[15px] font-bold text-end mr-2">
+                      Voir plus
+                    </button>
+                    <img src="/Arrow.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </Link>
+
           </div>
         </div>
       </div>

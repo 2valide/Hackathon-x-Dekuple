@@ -10,7 +10,7 @@ const Header = () => {
             Acceuil
           </p>
         </Link>
-        <Link href="/Dashboard">
+        <Link href="/dashboard">
           <p className="text-white hover:text-[#2BD6D9] cursor-pointer">
             Dashboard
           </p>
