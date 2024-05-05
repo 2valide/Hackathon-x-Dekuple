@@ -1,13 +1,12 @@
-import Sidebar from'../app/components/Sidebar';
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
-function App(){
-  return(
-      <div className="">
-          <SidebarClose />
-      </div>
-  );
+export default function Page() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push("/homepage");
+  }, [router]);
+
+  return <div></div>;
 }
-
-export default App
-
-//dqsdqsdqs
