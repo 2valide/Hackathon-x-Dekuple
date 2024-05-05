@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 const SidebarClose = () => {
   return (
-    <div className="w-[5rem] h-[40rem] bg-[#35264A]">
+    <div className="w-[5rem] h-screen bg-[#35264A]">
       <div className="border-b-2 p-[1rem] border-[#2BD6D9]">
         <Image
           src="/img/logo_sidebarclose.svg"

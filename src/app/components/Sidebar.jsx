@@ -1,8 +1,12 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+
+
+
 const Sidebar = () => {
   return (
-    <div className="w-[11rem] h-[40rem]  bg-[#35264A]">
+    <div className="w-[11rem] h-screen  bg-[#35264A]">
       <div className="border-b-2 p-[1rem] border-[#2BD6D9]">
         <Image
           src="/img/logodekuple.svg"
@@ -15,7 +19,7 @@ const Sidebar = () => {
         <div className="flex flex-row">
           <Image src="/img/menu.svg" width={25} height={15} alt="" />
         </div>
-
+        
         <motion.div
           whileHover={{
             scale: 1.1,
@@ -49,38 +53,45 @@ const Sidebar = () => {
           <p className="ml-[0.5rem]"> Stockage</p>
         </motion.div>
 
-        <motion.div
-          whileHover={{
-            scale: 1.1,
-            color: "#2BD6D9",
-          }}
-          className="flex flex-row cursor-pointer"
-        >
-          <Image src="/img/click.svg" width={25} height={15} alt="" />{" "}
-          <p className="ml-[0.5rem] mt-[0.4rem]">En temps réel</p>
-        </motion.div>
+        <Link href="/Realtime"> 
+            <motion.div
+              whileHover={{
+                scale: 1.1,
+                color: "#2BD6D9",
+              }}
+              className="flex flex-row cursor-pointer"
+            >
+              <Image src="/img/click.svg" width={25} height={15} alt="" />{" "}
+              <p className="ml-[0.5rem] mt-[0.4rem]">En temps réel</p>
+            </motion.div>
+        </Link>
 
-        <motion.div
-          whileHover={{
-            scale: 1.1,
-            color: "#2BD6D9",
-          }}
-          className="flex flex-row cursor-pointer"
-        >
-          <Image src="/img/graphique.svg" width={25} height={15} alt="" />{" "}
-          <p className="ml-[0.5rem]">Performance</p>
-        </motion.div>
+        <Link href="/Performance">
+            <motion.div
+              whileHover={{
+                scale: 1.1,
+                color: "#2BD6D9",
+              }}
+              className="flex flex-row cursor-pointer"
+            >
+              <Image src="/img/graphique.svg" width={25} height={15} alt="" />{" "}
+              <p className="ml-[0.5rem]">Performance</p>
+            </motion.div>
+        </Link>
 
-        <motion.div
-          whileHover={{
-            scale: 1.1,
-            color: "#2BD6D9",
-          }}
-          className="flex flex-row cursor-pointer"
-        >
-          <Image src="/img/loupe.svg" width={25} height={15} alt="" />{" "}
-          <p className="ml-[0.5rem]">Analyse</p>
-        </motion.div>
+        <Link href="/Analyses">
+              <motion.div
+                whileHover={{
+                  scale: 1.1,
+                  color: "#2BD6D9",
+                }}
+                className="flex flex-row cursor-pointer"
+              >
+                <Image src="/img/loupe.svg" width={25} height={15} alt="" />{" "}
+                <p className="ml-[0.5rem]">Analyse</p>
+              </motion.div>
+        </Link>
+
       </div>
     </div>
   );

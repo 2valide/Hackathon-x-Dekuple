@@ -80,14 +80,24 @@ const CombinedCharts = ({ data }) => {
   }, [data]);
 
   return (
-    <div>
-      <div className="flex flew-row w-[500px]">
-        <canvas ref={chartContainers.pyramidChart} />
-        <canvas ref={chartContainers.barChart} />
-      </div>
-      <div className="flex flew-row w-[500px] h-[500px]">
-        <canvas ref={chartContainers.pieChart} />
-        <canvas ref={chartContainers.scatterChart} />
+    <div className="flex">
+      <div className="bg-[#35264A] rounded-lg border border-gray-300 p-4 m-4">
+        <div className="flex flex-row">
+            <div className="bg-gray-200 rounded-lg border border-gray-300 p-4 m-4">
+                <canvas ref={chartContainers.pyramidChart} />
+            </div>
+            <div className="bg-gray-200 rounded-lg border border-gray-300 p-4 m-4">
+                <canvas ref={chartContainers.barChart} />
+            </div>
+        </div>
+        <div className="flex flex-row">
+            <div className="bg-gray-200 rounded-lg border border-gray-300 p-4 m-4">
+              <canvas ref={chartContainers.pieChart} />
+            </div>
+            <div className="bg-gray-200 rounded-lg border border-gray-300 p-4 m-4">
+              <canvas ref={chartContainers.scatterChart} />
+            </div>
+        </div>
       </div>
     </div>
   );
