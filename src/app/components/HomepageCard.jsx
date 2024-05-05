@@ -53,7 +53,6 @@ export default function HomePageCard() {
             </div>
             <div className="flex justify-end mr-6 mt-[122px]">
               <Link href="/authentification">
-              <Link href="/Authentification">
                 <div className="flex flex-row">
                   <button className="text-white text-[15px] font-bold text-end mr-2">
                     Voir plus
