@@ -31,10 +31,6 @@ export default function HomePageCard() {
                   </div>
                 </Link>
               </div>
-
-
-
-
             </div>
           </div>
           <div className="bg-no-repeat bg-authentification bg-right w-[316px] h-[453px] border-4 border-cyan-500 rounded-[15px] mr-[10px]">
@@ -56,6 +52,7 @@ export default function HomePageCard() {
               </div>
             </div>
             <div className="flex justify-end mr-6 mt-[122px]">
+              <Link href="/authentification">
               <Link href="/Authentification">
                 <div className="flex flex-row">
                   <button className="text-white text-[15px] font-bold text-end mr-2">
@@ -112,7 +109,7 @@ export default function HomePageCard() {
                   Suivre en temps réel les utilisateur a travers le monde.
                 </h1>
               </div>
-              <Link href="/Realtime">
+              <Link href="/realtime">
                 <div>
                   <div className="flex justify-end mr-6 mt-[10px] hover:animate-fade-right">
                     <div className="flex flex-row mt-3">
@@ -124,7 +121,6 @@ export default function HomePageCard() {
                   </div>
                 </div>
               </Link>
-
             </div>
             <div className="bg-no-repeat bg-BG-Performance w-[740px] h-[222px] mt-[8px]">
               <div className="flex flex-row pt-4 pl-4">
@@ -139,7 +135,7 @@ export default function HomePageCard() {
                   rapports.
                 </h1>
               </div>
-              <Link href="/Performance">
+              <Link href="/performance">
                 <div>
                   <div className="flex justify-end mr-6 mt-[10px] hover:animate-fade-right">
                     <div className="flex flex-row mt-3">
@@ -151,7 +147,6 @@ export default function HomePageCard() {
                   </div>
                 </div>
               </Link>
-
             </div>
           </div>
 
@@ -170,7 +165,7 @@ export default function HomePageCard() {
                 </h1>
               </div>
             </div>
-            <Link href="/Analyses">
+            <Link href="/analyse">
               <div>
                 <div className="flex justify-end mr-6 mt-[150px] hover:animate-fade-right">
                   <div className="flex flex-row mt-3">
@@ -182,7 +177,6 @@ export default function HomePageCard() {
                 </div>
               </div>
             </Link>
-
           </div>
         </div>
       </div>

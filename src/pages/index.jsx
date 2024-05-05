@@ -1,13 +1,12 @@
-import Sidebar from'../app/components/Sidebar';
-import SidebarClose from '../app/components/SidebarClose';
-function App(){
-  return(
-      <div className="">
-          <SidebarClose />
-      </div>
-  );
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+
+export default function Page() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push("/homepage");
+  }, [router]);
+
+  return <div></div>;
 }
-
-export default App
-
-//dqsdqsdqs

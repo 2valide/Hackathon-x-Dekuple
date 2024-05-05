@@ -17,7 +17,7 @@ export default function DashboardCards({ company }) {
             <img
               src={company.logo}
               alt={company.alt}
-              className="w-[120px] h-[120px]"
+              className="w-[120px] h-[120px] object-contain fill-blue-500"
             />
           </Link>
         </div>
