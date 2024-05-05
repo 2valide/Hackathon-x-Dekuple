@@ -1,11 +1,11 @@
 import SearchBar from "@/app/components/SearchBar";
 import Image from "next/image";
-import SidebarClose from "@/app/components/SidebarClose";
+import Sidebar from "@/app/components/Sidebar";
 const Tableau = () => {
   return (
     // SIDEBAR
     <div className=" flex  bg-[#2E1452] ">
-      <SidebarClose />
+      <Sidebar />
       <div className="p-[4rem]  flex">
         <div className="flex-col flex">
           <h1 className="text-2xl font-bold text-white"> Authentification </h1>
