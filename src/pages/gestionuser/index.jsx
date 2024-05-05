@@ -1,14 +1,25 @@
-import Tableau from "@/app/components/tableaux";
-import Header from "@/app/components/Header";
-import SidebarClose from "@/app/components/SidebarClose";
 import Sidebar from "@/app/components/Sidebar";
 import TableauUser from "@/app/components/TableauUser";
-function App() {
+
+
+export default function GestionUser() {
   return (
-    <div className="h-screen bg-black">
-      <TableauUser />
+    <div className="flex bg-[#2E1452] ">
+      <Sidebar/>
+      <div className="flex flex-">
+        <div className="p-[4rem]  ">
+          <h1 className="text-2xl font-bold text-white"> Base de Données </h1>
+          <div className=" mt-[2rem]  border-b border-[#2BD6D9]  border-solid">
+            <p className="text-white "> Utilisateur </p>
+          </div>
+        </div>
+        <div className="flex justify-center items-center mt-32 ml-8">
+          <div>
+          <TableauUser />
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
-
-export default App;

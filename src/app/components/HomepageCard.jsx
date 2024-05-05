@@ -20,7 +20,7 @@ export default function HomePageCard() {
                     Gestion centralisée des données client
                   </h1>
                 </div>
-                <Link href="#">
+                <Link href="/GestionUser">
                   <div className=" flex justify-end mt-32 ml-32">
                     <div className="flex flex-row ml-[390px] mt-[40px] ">
                       <button className="text-white text-[15px] font-bold text-end mr-2 flex">
@@ -80,16 +80,17 @@ export default function HomePageCard() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-end mr-6 mt-[122px] hover:animate-fade-right">
-              <Link href="#">
+            <Link href="/Stockage">
+              <div className="flex justify-end mr-6 mt-[122px] hover:animate-fade-right">
                 <div className="flex flex-row">
                   <button className="text-white text-[15px] font-bold text-end mr-2">
                     Voir plus
                   </button>
                   <img src="/Arrow.svg" alt="" />
                 </div>
-              </Link>
-            </div>
+              </div>
+            </Link>
+
           </div>
         </div>
 

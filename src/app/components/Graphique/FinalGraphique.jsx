@@ -7,15 +7,15 @@ const getRandomInt = (min, max) => {
 const Graphique = () => {
   // Fonction pour générer des données aléatoires pour le graphique de type "pyramid"
   const generateRandomPyramidData = () => {
-    const labels = ["0-10", "11-20", "21-30", "31-40", "41-50"];
+    const labels = ["0-10 ans", "11-20 ans", "21-30 ans", "31-40 ans", "41-50 ans"];
     const datasets = [
       {
-        label: "Hommes",
+        label: "Utilisateurs masculins",
         backgroundColor: "rgba(54, 162, 235, 0.5)",
         data: labels.map(() => getRandomInt(50, 350)),
       },
       {
-        label: "Femmes",
+        label: "Utilisatrices féminines",
         backgroundColor: "rgba(255, 99, 132, 0.5)",
         data: labels.map(() => getRandomInt(50, 350)),
       },
@@ -25,10 +25,10 @@ const Graphique = () => {
 
   // Fonction pour générer des données aléatoires pour le graphique de type "bar"
   const generateRandomBarChartData = () => {
-    const labels = ["A", "B", "C", "D", "E"];
+    const labels = ["Utilisateur A", "Utilisateur B", "Utilisateur C", "Utilisateur D", "Utilisateur E"];
     const datasets = [
       {
-        label: "Données",
+        label: "Nombre d'interactions IoT",
         backgroundColor: "rgba(54, 162, 235, 0.5)",
         data: labels.map(() => getRandomInt(10, 50)),
       },
@@ -38,10 +38,10 @@ const Graphique = () => {
 
   // Fonction pour générer des données aléatoires pour le graphique de type "pie"
   const generateRandomPieChartData = () => {
-    const labels = ["A", "B", "C", "D", "E"];
+    const labels = ["Utilisateur A", "Utilisateur B", "Utilisateur C", "Utilisateur D", "Utilisateur E"];
     const datasets = [
       {
-        label: "Données",
+        label: "Répartition des interactions IoT par utilisateur",
         backgroundColor: ["red", "green", "blue", "yellow", "orange"],
         data: labels.map(() => getRandomInt(10, 50)),
       },
@@ -53,7 +53,7 @@ const Graphique = () => {
   const generateRandomScatterChartData = () => {
     const datasets = [
       {
-        label: "Nuages de points",
+        label: "Fréquence d'interaction des dispositifs IoT",
         backgroundColor: "rgba(255, 99, 132, 0.5)",
         borderColor: "rgba(255, 99, 132, 1)",
         data: Array.from({ length: 5 }, () => ({
