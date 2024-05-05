@@ -31,10 +31,6 @@ export default function HomePageCard() {
                   </div>
                 </Link>
               </div>
-
-
-
-
             </div>
           </div>
           <div className="bg-no-repeat bg-authentification bg-right w-[316px] h-[453px] border-4 border-cyan-500 rounded-[15px] mr-[10px]">
@@ -86,12 +82,12 @@ export default function HomePageCard() {
             </div>
             <div className="flex justify-end mr-6 mt-[122px] hover:animate-fade-right">
               <Link href="#">
-              <div className="flex flex-row">
-                <button className="text-white text-[15px] font-bold text-end mr-2">
-                  Voir plus
-                </button>
-                <img src="/Arrow.svg" alt="" />
-              </div>
+                <div className="flex flex-row">
+                  <button className="text-white text-[15px] font-bold text-end mr-2">
+                    Voir plus
+                  </button>
+                  <img src="/Arrow.svg" alt="" />
+                </div>
               </Link>
             </div>
           </div>
@@ -123,7 +119,6 @@ export default function HomePageCard() {
                   </div>
                 </div>
               </Link>
-
             </div>
             <div className="bg-no-repeat bg-BG-Performance w-[740px] h-[222px] mt-[8px]">
               <div className="flex flex-row pt-4 pl-4">
@@ -150,7 +145,6 @@ export default function HomePageCard() {
                   </div>
                 </div>
               </Link>
-
             </div>
           </div>
 
@@ -181,7 +175,6 @@ export default function HomePageCard() {
                 </div>
               </div>
             </Link>
-
           </div>
         </div>
       </div>
