@@ -1,11 +1,13 @@
-import Tableau from '../app/components/tableaux';
-import Header from '../app/components/Header';
+import Sidebar from'../app/components/Sidebar';
 import SidebarClose from '../app/components/SidebarClose';
+import Tableau2 from '../app/components/Tableau2';
+import Tableaux from '../app/components/Tableaux';
+
+
 function App(){
   return(
-      <div className="h-screen bg-black">
-        
-        <Tableau />
+      <div>
+          <Tableau2 />          
       </div>
   );
 }
