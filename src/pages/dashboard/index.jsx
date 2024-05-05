@@ -15,7 +15,7 @@ function Dashboard() {
       name: "CHANEL",
       status: "En cours",
       website: "https://www.chanel.com",
-      logo: "./public/chanel-logo.png",
+      logo: "/chanel-logo.png",
       alt: "Chanel logo",
     },
     {
@@ -23,7 +23,7 @@ function Dashboard() {
       name: "Volkswagen",
       status: "En cours",
       website: "https://www.volkswagen.com",
-      logo: "./public/vw-logo.png",
+      logo: "/vw_logo.png",
       alt: "Volkswagen logo",
     },
     // autre projets
