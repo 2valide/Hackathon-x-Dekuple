@@ -16,7 +16,7 @@ const initialData = [
     type: "PDF",
     lastModified: "20 avril 2024",
   },
-  // More entries here
+  
 ];
 
 const Tableau = () => {
