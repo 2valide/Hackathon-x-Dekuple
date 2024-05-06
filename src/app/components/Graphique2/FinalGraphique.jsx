@@ -1,4 +1,3 @@
-// pages/Graphique/index.js
 
 import CombinedCharts2 from "../Graphique2/Chart";
 
