@@ -1,4 +1,3 @@
-// components/CombinedCharts3.js
 
 import { useEffect, useRef } from "react";
 import Chart from "chart.js/auto";
