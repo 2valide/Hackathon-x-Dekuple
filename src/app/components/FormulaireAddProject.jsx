@@ -3,9 +3,8 @@ import Link from "next/link";
 const FormulaireAddProject = () => {
   return (
     <div className="flex flex-col justify-center items-center bg-[#2E1452] h-screen pb-[12.5rem]">
-      <h1 className=" text-2xl text-white pt-[6.25rem]  font-bold">
-        {" "}
-        Général{" "}
+      <h1 className=" text-2xl text-white pt-[6.25rem] pb-[1rem]  font-bold">
+        Ajouter un projet
       </h1>
       <form>
         <div className="w-[21rem] h-[24.75rem] m-auto shadow-lg bg-[#009699] rounded-md p-9">
@@ -22,7 +21,7 @@ const FormulaireAddProject = () => {
           <div className="mt-[0.5rem]">
             <label for="text" className="text-white font-bold">
               {" "}
-              L url de l Entrprise{" "}
+              Site web de l'entreprise{" "}
             </label>
             <input
               type="text"
@@ -43,8 +42,7 @@ const FormulaireAddProject = () => {
                 for="UploadFile"
                 className="text-white font-bold rounded-md "
               >
-                {" "}
-                Ajouter une image{" "}
+                Importer son logo (optionnel)
               </label>
               <input
                 type="file"
@@ -56,7 +54,7 @@ const FormulaireAddProject = () => {
 
           <div className="flex justify-center items-center mt-[40px]">
             <button className="bg-[#2E1452] text-white cursor-pointer rounded-lg p-3">
-              Creer votre prrojet
+              Créer projet
             </button>
           </div>
         </div>
